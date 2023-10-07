@@ -1,0 +1,108 @@
+.home {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    align-items: center;
+    background-color: #08d9f5cf;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    flex: 1;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 20px;
+    border-radius: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .search-bar button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out; /* Added transform property */
+    outline: none;
+  }
+  
+  .search-bar button:hover {
+    background-color: #f0af0b;
+    transform: scale(1.1); /* Scale the button slightly on hover */
+  }
+  
+  /* User Account */
+  .user-account {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  .user-account button{
+    background-color: #131312;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out; /* Added transform property */
+    outline: none;
+    border-radius: 10px;
+  }
+  
+  .user-name {
+    margin-right: 10px;
+  }
+  
+  /* Shopping Cart Container */
+  .shopping-cart-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Shopping Cart */
+  .shopping-cart {
+    display: flex;
+    align-items: center;
+    color: #333;
+  }
+  
+  .cart-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    transition: transform 0.2s ease-in-out; 
+  }
+  
+  .cart-icon:hover {
+    transform: rotate(20deg);
+  }
+  .register
+  {
+    margin-left: 10px;
+  }
+  
